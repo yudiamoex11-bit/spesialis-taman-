@@ -1,0 +1,62 @@
+/* ANIMASI HOVER SERVICE */
+
+.service{
+transition:0.4s;
+}
+
+.service:hover{
+transform:translateY(-12px) scale(1.02);
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+
+/* HERO ANIMATION */
+
+.hero h1{
+animation:fadeDown 1s ease;
+}
+
+.hero p{
+animation:fadeUp 1.5s ease;
+}
+
+@keyframes fadeDown{
+from{
+opacity:0;
+transform:translateY(-30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+
+/* GALERI SHADOW */
+
+.galeri img{
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+/* WHATSAPP ANIMATION */
+
+.whatsapp{
+transition:0.3s;
+}
+
+.whatsapp:hover{
+transform:scale(1.1);
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
